@@ -43,9 +43,13 @@ header{
     line-height: 16.8px; /* 120% */
     text-transform: uppercase;
     text-decoration: none;
+    border-bottom: 1px solid transparent;
 }
 
+.menu-elements:hover{
+    border-bottom: 2px solid black;
 
+}
 main{
     padding: 5%;
 }
@@ -88,6 +92,12 @@ main{
     font-weight: 400;
     line-height: 21.6px; /* 120% */
     text-transform: capitalize;
+}
+
+.button:hover{
+    background: #000000;
+    color: #ffffff;
+    border: 2px dashed white;
 }
 
 
@@ -139,7 +149,14 @@ main{
     width: 244px;
     height: 214px;
 }
-
+.card{
+    padding: 30px;
+    border-radius: 30px;
+}
+.card:hover {
+    background: #DCE5E2;
+    cursor: pointer;
+}
 
 .container-cards{
     display: flex;
@@ -218,6 +235,9 @@ main{
     line-height: 16.8px; /* 120% */
 }
 
+.subm:hover{
+    border: 2px dashed white;
+}
 
 .content-input{
     width: 400px;
@@ -291,4 +311,9 @@ footer{
     font-weight: 400;
     line-height: 21.6px; /* 127.059% */
     text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+.footer-elements:hover{
+    border-bottom: 2px solid black;
+
 }
